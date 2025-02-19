@@ -17,10 +17,10 @@ console.log(dividir);
 // let hola; tipo de dato undifine
 // let verdadero = true o false; tipo de dato booleano
 // let nulo = null;
-let opcion = parseInt(prompt("Quieres:\n 1: Sumar \n 2: Restar \n 3: Multiplicar \n 4: Dividir"));
-let num1 = parseInt(prompt("ingresa el primer numero"));
-let num2 = parseInt(prompt("ingresa el segundo numero"));
-let resultado; //declarar variable
+// let opcion = parseInt(prompt("Quieres:\n 1: Sumar \n 2: Restar \n 3: Multiplicar \n 4: Dividir"));
+// let num1 = parseInt(prompt("ingresa el primer numero"));
+// let num2 = parseInt(prompt("ingresa el segundo numero"));
+// let resultado; //declarar variable
 
 /* if (opcion === 1) {
     resultado = num1 + num2;
@@ -34,7 +34,7 @@ let resultado; //declarar variable
     console.log("dato ingresado incorrecto");
 } */
 
-switch (opcion) {
+/* switch (opcion) {
     case 1:
         resultado = num1 + num2; // suma
         break;
@@ -51,8 +51,37 @@ switch (opcion) {
         console.log("dato ingresado incorrecto");11
         break;
 }
-console.log(resultado);
+console.log(resultado); */
+// Piedra Papel y Tijera
+/* let nombres = ["piedra", "papel", "tijeras"];
+console.log(nombres);
+console.log(nombres[0]);
 
-while () {
-    
+let adversario = Math.floor(Math.random() * 3) + 1;
+console.log(adversario);
+
+let usuario = parseInt(prompt("Elige:\n 1: piedra \n 2: Tijera \n 3: Papel"));
+
+if (usuario == adversario) {
+    alert("empate")
 }
+
+if (usuario ) {
+
+} */
+
+function adivina() {
+    let intentos = 0;
+    let maquina = Math.floor(Math.random() * 10) + 1;
+
+    while (intentos < 7) {
+        let usuario = parseInt(prompt("Adivina el numero que esta pensando la maquina. Entre 1 y 10"));
+        intentos += 1;
+        if (usuario == maquina) {
+            alert("Haz adivinado el numero");
+            break;
+        };
+    }
+
+    alert("El juego a terminado")
+};
