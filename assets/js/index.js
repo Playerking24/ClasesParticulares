@@ -76,15 +76,15 @@ function adivina() {
     let dificultad = prompt("Elige la dificultad \n facil \n normal \n dificil");
     let cantidadIntentos;
 
-    if (dificultad = "facil") {
+    if (dificultad == "facil") {
         cantidadIntentos = 7;
     };
 
-    if (dificultad = "normal") {
+    if (dificultad == "normal") {
         cantidadIntentos = 5;
     }
 
-    if (dificultad = "dificil") {
+    if (dificultad == "dificil") {
         cantidadIntentos = 3;
     }
      
@@ -93,10 +93,44 @@ function adivina() {
         let usuario = parseInt(prompt("Adivina el numero que esta pensando la maquina. Entre 1 y 10"));
         intentos += 1;
         if (usuario == maquina) {
-            alert("Haz adivinado el numero");
+            alert("Haz adivinado el numero, " + maquina + " en " + intentos + " intentos");
             break;
         };
     }
 
     alert("El juego a terminado")
+};
+
+const charmander = {
+    name:"charmander",
+    pista1 "es pequeño",
+    pista2 "es un pokemon de Ash",
+    pista3 "es un pokemon de fuego"
+};
+
+const Squirtle = {
+    name:"Squirtle",
+    pista1 "es pequeño",
+    pista2 "es un pokemon de Ash",
+    pista3 "es un pokemon de agua"
+};
+
+const Bulbasaur = {
+    name:"Bulbasaur",
+    pista1 "es pequeño",
+    pista2 "es un pokemon de Ash",
+    pista3 "es un pokemon de planta"
+};
+
+let pokemon = [charmander,Bulbasaur,Squirtle];
+
+function adivinaelpokemon() {
+    let maquina = Math.floor(Math.random() * 3);
+    let pokemonsecreto = pokemon[indice];
+
+
+    let pistasusuario =
+    alert ("")
+    console.log(pokemonsecreto.name);
+
 };
