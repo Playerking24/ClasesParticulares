@@ -124,7 +124,7 @@ const bulbasaur = {
 
 let pokemon = [charmander,bulbasaur,squirtle];
 
-function adivinaelpokemon() {
+function adivinaElPokemon() {
     let indice = Math.floor(Math.random() * 3);
     let pokemonsecreto = pokemon[indice];
 
