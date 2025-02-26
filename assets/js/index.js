@@ -103,29 +103,29 @@ function adivina() {
 
 const charmander = {
     name:"charmander",
-    pista1 "es pequeño",
-    pista2 "es un pokemon de Ash",
-    pista3 "es un pokemon de fuego"
+    pista1: "es pequeño",
+    pista2: "es un pokemon de Ash",
+    pista3: "es un pokemon de fuego"
 };
 
-const Squirtle = {
-    name:"Squirtle",
-    pista1 "es pequeño",
-    pista2 "es un pokemon de Ash",
-    pista3 "es un pokemon de agua"
+const squirtle = {
+    name:"squirtle",
+    pista1: "es pequeño",
+    pista2: "es un pokemon de Ash",
+    pista3: "es un pokemon de agua"
 };
 
-const Bulbasaur = {
-    name:"Bulbasaur",
-    pista1 "es pequeño",
-    pista2 "es un pokemon de Ash",
-    pista3 "es un pokemon de planta"
+const bulbasaur = {
+    name:"bulbasaur",
+    pista1: "es pequeño",
+    pista2: "es un pokemon de Ash",
+    pista3: "es un pokemon de planta"
 };
 
-let pokemon = [charmander,Bulbasaur,Squirtle];
+let pokemon = [charmander,bulbasaur,squirtle];
 
 function adivinaelpokemon() {
-    let maquina = Math.floor(Math.random() * 3);
+    let indice = Math.floor(Math.random() * 3);
     let pokemonsecreto = pokemon[indice];
 
 
