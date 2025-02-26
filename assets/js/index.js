@@ -73,8 +73,23 @@ if (usuario ) {
 function adivina() {
     let intentos = 0;
     let maquina = Math.floor(Math.random() * 10) + 1;
+    let dificultad = prompt("Elige la dificultad \n facil \n normal \n dificil");
+    let cantidadIntentos;
 
-    while (intentos < 7) {
+    if (dificultad = "facil") {
+        cantidadIntentos = 7;
+    };
+
+    if (dificultad = "normal") {
+        cantidadIntentos = 5;
+    }
+
+    if (dificultad = "dificil") {
+        cantidadIntentos = 3;
+    }
+     
+    
+    while (intentos < cantidadIntentos) {
         let usuario = parseInt(prompt("Adivina el numero que esta pensando la maquina. Entre 1 y 10"));
         intentos += 1;
         if (usuario == maquina) {
