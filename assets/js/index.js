@@ -127,10 +127,21 @@ let pokemon = [charmander,bulbasaur,squirtle];
 function adivinaElPokemon() {
     let indice = Math.floor(Math.random() * 3);
     let pokemonsecreto = pokemon[indice];
-
-
-    let pistasusuario =
-    alert ("")
-    console.log(pokemonsecreto.name);
-
+    let intentos 0;
+    do {
+        
+    } while (
+        let pistasusuario = pokemonsecreto.pista1
+        alert ("pistasusuario")
+        console.log(pokemonsecreto.name);
+        )while (intentos > pokemon.lenght);
 };
+
+
+
+   
+
+    
+
+    
+
