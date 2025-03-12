@@ -122,26 +122,51 @@ const bulbasaur = {
     pista3: "es un pokemon de planta"
 };
 
+const auto = {
+    ventanas: 7,
+    puerta: 3,
+    ruedas: 4,
+}
+
+let infoObjetos = auto.ventanas;
+
+console.log(infoObjetos);
+// los array arrancan desde 0
 let pokemon = [charmander,bulbasaur,squirtle];
 
 function adivinaElPokemon() {
-    let indice = Math.floor(Math.random() * 3);
-    let pokemonsecreto = pokemon[indice];
-    let intentos 0;
-    do {
-        
-    } while (
-        let pistasusuario = pokemonsecreto.pista1
-        alert ("pistasusuario")
-        console.log(pokemonsecreto.name);
-        )while (intentos > pokemon.lenght);
-};
+    //aca asignamos un numero al azar
+    let indice = Math.floor(Math.random() * 3); 
+    //aca le decimos que indice del array eligio 
+    let pokemonSecreto = pokemon[indice];
+    //se lanza la primera pista
+    alert(pokemonSecreto.pista1)
+    //La  pregunta al usuario y tambien se obtiene la respuesta
+    let nombrepokemon = prompt ("cual Pokemon es")
+    // validamos se respuesta con el pokemon 
+    if (nombrepokemon == pokemonSecreto.name) {
+        alert ("Haz Adivinado el pokemon");
+        return;
+    } else if (nombrepokemon == pokemonSecreto.name) {
+        alert ("No haz adivinado, te doy otra pista");
+        alert(pokemonSecreto.pista2);
+        nombrepokemon = prompt ("cual Pokemon es")
+        if (nombrepokemon == pokemonSecreto.name) {
+            alert("Haz adivinado el Pokemon");
+            return;
+        } else if (nombrepokemon == pokemonSecreto.name)
+            alert(" no adivinaste, te dare otr pista"); {
+            alert (pokemonSecreto.pista3);
+            nombrepokemon = prompt("Cual Pokemon es");
+            if (nombrepokemon == pokemonSecreto.name) {
+                alert("Haz adivinado el pokemon");
+                return;
+            }
+            return;
+        }
 
 
-
-   
-
-    
-
-    
+    };
+    alert ("No Haz adivinado el Pokemon");
+}
 
