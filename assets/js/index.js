@@ -162,11 +162,10 @@ function adivinaElPokemon() {
                 alert("Haz adivinado el pokemon");
                 return;
             }
-            return;
+            else {
+                alert ("no haz adivinado el Pokemon");
+            }
         }
-
-
     };
-    alert ("No Haz adivinado el Pokemon");
-}
+   
 
