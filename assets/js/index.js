@@ -147,14 +147,16 @@ function adivinaElPokemon() {
     if (nombrepokemon == pokemonSecreto.name) {
         alert ("Haz Adivinado el pokemon");
         return;
-    } else if (nombrepokemon == pokemonSecreto.name) {
+    } else  
+     (nombrepokemon == pokemonSecreto.name) {
         alert ("No haz adivinado, te doy otra pista");
         alert(pokemonSecreto.pista2);
         nombrepokemon = prompt ("cual Pokemon es")
         if (nombrepokemon == pokemonSecreto.name) {
             alert("Haz adivinado el Pokemon");
             return;
-        } else if (nombrepokemon == pokemonSecreto.name)
+        } else {
+             (nombrepokemon == pokemonSecreto.name)
             alert(" no adivinaste, te dare otr pista"); {
             alert (pokemonSecreto.pista3);
             nombrepokemon = prompt("Cual Pokemon es");
@@ -164,6 +166,10 @@ function adivinaElPokemon() {
             }
             else {
                 alert ("no haz adivinado el Pokemon");
+                return;
+            } else {
+                alert("No haz adivinado  el Pokemon");
+            }
             }
         }
     };
