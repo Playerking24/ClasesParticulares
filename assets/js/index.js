@@ -129,6 +129,13 @@ const Pikachu = {
     pista3: "es un pokemon de electrizidad"
 };
 
+const Ditto = {
+    name:"Ditto",
+    pista1: "es pequeño",
+    pista2: "es un pokemon salvaje",
+    pista3: "es un pokemon normal"
+};
+
 const auto = {
     ventanas: 7,
     puerta: 3,
@@ -155,7 +162,7 @@ function adivinaElPokemon() {
         alert ("Haz Adivinado el pokemon");
         return;
     } else {
-        alert ("No haz adivinado, te doy otra pista");
+        alert ("No haz adivinado, te doy otra p ista");
         alert(pokemonSecreto.pista2);
         nombrepokemon = prompt ("cual Pokemon es")
         if (nombrepokemon == pokemonSecreto.name) {
