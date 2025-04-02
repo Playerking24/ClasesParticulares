@@ -1,94 +1,12 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #9a9ad9;
-}
-.box{
-    width: 250px;
-    height: 250px;
-    margin: 0 20px 0 20px;
-    border-radius: 15px;
-    border: 3px solid rgb(0, 0, 0);
-    overflow: hidden;
-    box-shadow: 3px 7px 15px rgb(11, 0, 98);
-    transition: 1s;
-}
-img{
-    width: 100%;
-    height: 100%;
-}
-.box:hover{
-    box-shadow: 3px 7px 15px rgb(5, 0, 41);
-    border: 3px solid rgb(70, 70, 70);
-    transform: scale(1.1);
-}
-.box{
-    cursor: pointer;
-}
-h1{
-
-    padding-top: 30px;    
-}
-
-main{
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/024/625/582/small_2x/cute-yellow-mouse-character-background-free-vector.jpg);
-    width: 100%;
-    height: 100dvh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-button{
-    width: 300px;
-    height: 50px;
-    background-color: rgb(210, 30, 30);
-    border-radius: 15px;
-}
-
-a {
-    text-decoration: none;
-    background-color: inherit;
-    color: black;
-    font-size: large;
-    font-weight: bold;
-}
-
-.caja{
-    width: 300px;
-}
-.contenedor{
-    width: 100%;
-    height: 100dvh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-
-.titulo {
-    color:aliceblue;
-    background-color: black;
-    border-radius: 15%;
-    padding: 15px;
 }
 
 #detective {
     position: relative;
-    background-image: url(https://i.pinimg.com/736x/2c/e6/8e/2ce68eec43f52b5eb97f153e64c28d19.jpg);
+    background-image: url(https://imgs.search.brave.com/4SCA32eRhNfi0NgW8fdjWSjX3pnQSdYElbh3bIQTBLw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxblFBWnJjV2VM/LmpwZw);
     background-position: center;
     background-size: contain;
     background-color: black;
@@ -96,8 +14,10 @@ a {
     width: 100%;
     height: 100dvh;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-   
+    align-items: center;
+    padding: 25px;
 }
 
 .title-d {
@@ -107,7 +27,64 @@ a {
 .btn-game-d {
     background-color: azure;
     border-color: red;
-    font-size: 1,5rem;
+    font-size: 1.8rem;
     font-weight: bold;
+    width: 250px;
+    border-radius: 15px;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#escenario {
+    background-image: url(https://i.pinimg.com/736x/ed/20/fd/ed20fdc3e05feb4c4f5618e76705b7e2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100dvh;
+}
+
+.policia {
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.texto {
+    position: relative;
+    left: -200px;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 45%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+}
+
+.personajes {
+    display: flex;
+}
+
+.box-personaje {
+    width: 250px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
 }
