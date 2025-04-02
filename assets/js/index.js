@@ -146,11 +146,11 @@ let infoObjetos = auto.ventanas;
 
 console.log(infoObjetos);
 // los array arrancan desde 0
-let pokemon = [charmander,bulbasaur,squirtle,Pikachu];
+let pokemon = [charmander,bulbasaur,squirtle,Pikachu,Ditto];
 
 function adivinaElPokemon() {
     //aca asignamos un numero al azar
-    let indice = Math.floor(Math.random() * 4); 
+    let indice = Math.floor(Math.random() * 5); 
     //aca le decimos que indice del array eligio 
     let pokemonSecreto = pokemon[indice];
     //se lanza la primera pista
