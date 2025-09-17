@@ -5,6 +5,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: aliceblue;
+    margin: 0;
 }
 
 .container {
@@ -53,6 +54,7 @@ h1 {
     left: 70px;
     width: 2px;
     height: 60px;
+    background-color: black;
     display: none;
 }
 
@@ -86,7 +88,9 @@ h1 {
     height: 2px;
     background-color: black;
     transform: rotate(-45deg);
+    display: none;
 }
+
 
 #pierna-derecha {
     position: absolute;
@@ -126,7 +130,7 @@ h1 {
     padding: 8px 12px;
     cursor: pointer;
     font-size: 1em;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease;
 }
 
 #botones-letras button:disabled {
