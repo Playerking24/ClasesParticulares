@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+}
+
+.rojo {
+    background-color: red;
+    
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.off {
+    opacity: .3;
+}
+
+.on {
+    opacity: 1;
+}
+
+button {
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(255, 35, 35);
+    border: 2px rgb(183, 19, 19);
+    width: 150px;
+    color: azure;
+    cursor: pointer;
+}
+
+.invisible {
+    display: none;
+}
