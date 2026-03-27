@@ -20,7 +20,20 @@ console.log("Division: " + resultado);
 luego crea una segunda variable y haz una 
 concatenacion de las dos variables, luego 
 muestra el resultado en consola. */
-let pesoTotalentrelosdos = panda + tiger;
-let cat = 4;
-let tiger = 90;
-console.log("Suma: " + pesoTotalentrelosdos);
+let saludo = "Hola, buenas tardes, bienvenidos a el curso de ";
+let nombreCurso = "Informatica";
+console.log(saludo + nombreCurso);
+
+let num = 5;
+let tipoString = "Son palabras o mensajes";
+let verOFal = true;
+let numDeci = 2.14;
+
+let nombres = ["nick", "pablo", "juan", "carlos"];
+let personaje = {
+    name: "Kris",
+    genero: "Masculino",
+    altura: 175
+}
+
+let matriz = [[],[],[]][[],[],[]];
