@@ -61,3 +61,5 @@ function gameover() {
     alert("¡Perdiste! Intenta de nuevo");
     btn.classList.remove("invisible");
 }
+
+alert('Hola nick');
