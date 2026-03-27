@@ -20,3 +20,7 @@ console.log("Division: " + resultado);
 luego crea una segunda variable y haz una 
 concatenacion de las dos variables, luego 
 muestra el resultado en consola. */
+let pesoTotalentrelosdos = panda + tiger;
+let cat = 4;
+let tiger = 90;
+console.log("Suma: " + pesoTotalentrelosdos);
