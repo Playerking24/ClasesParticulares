@@ -4,12 +4,14 @@
 // con las dos primeras variables, 
 // luego muestra el resultado en consola.
 
-var One = 1
-var six = 6
-var Two = 2
+let one = 1;
+let six = 6;
 
-
-One + six
-six * One
-One - One
-six/six
+let resultado = one + six;
+console.log("Suma: " + resultado);
+resultado = six - one;
+console.log("Resta: " + resultado);
+resultado = six * one;
+console.log("Multiplicacion: " + resultado);
+resultado = six / one;
+console.log("Division: " + resultado);
