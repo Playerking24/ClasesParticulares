@@ -62,3 +62,18 @@ button {
 .invisible {
     display: none;
 }
+
+#status{
+    width: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+#table-pointer {
+        width: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+
+}

@@ -10,10 +10,15 @@
     
 <span id="level"></span>
     <main>
-        <div class="rojo off" onclick="playerclick"(`rojo`)></div>
-        <div class="verde off" onclick="playerclick"(`verde`)></div></div>
-        <div class="azul off" onclick="playerclick"(`azul`)></div>
-        <div class="amarillo off" onclick="playerclick"(`amarillo`)></div>
+        <h1 id="status">¡Bienvenido!</h1>
+        <div id="table-pointer" class="invisible">
+            <h2 id="high-score text">Record: <span id="high-score-num"></span></h2>
+        </div>
+
+        <div class="rojo off" onclick="playerclick(`rojo`)"></div>
+        <div class="verde off" onclick="playerclick(`verde`)"></div></div>
+        <div class="azul off" onclick="playerclick(`azul`)"></div>
+        <div class="amarillo off" onclick="playerclick(`amarillo`)"></div>
     </main>
     <button id = "btn" class="" onclick="game()">Empezar</button>
     <script src="game.js"></script>

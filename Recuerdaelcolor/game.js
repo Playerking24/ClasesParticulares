@@ -3,6 +3,7 @@ let userSequence = [];
 
 const colors = ["rojo", "azul", "verde", "amarillo"];
 let level = 0;
+let highScore = localStorage.getItem("highScore")
 const btn = document.getElementById("btn");
 
 function game() {
@@ -40,15 +41,23 @@ return new Promise ((resolve) => {
 });
 }
 
-function playerclick (color) {
-    userSequence.push(color)
+function playerclick(color) {
+    userSequence.push(color);
+    flashcolor(color)
     const currentStep = userSequence.length - 1;
 
     if (userSequence [currentStep] !== gameSequence[currentStep]){
+        gameover();
+        return;
 
     }
 
-    if (currentStep.length === gameSequence.length){
-        setTimeout(nextLevel,1000);
+    if (userSequence.length === gameSequence.length){
+        setTimeout(nextLevel,250);
     }
+}
+
+function gameover() {
+    alert("¡Perdiste! Intenta de nuevo");
+    btn.classList.remove("invisible");
 }
