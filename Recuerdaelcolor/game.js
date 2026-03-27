@@ -5,9 +5,11 @@ const colors = ["rojo", "azul", "verde", "amarillo"];
 let level = 0;
 let highScore = localStorage.getItem("highScore")
 const btn = document.getElementById("btn");
+const status = document.getElementById("status");
 
 function game() {
     btn.classList.add("invisible");
+    status.classList.add("invisible");
     gameSequence = [];
     level = 0;
     nextLevel();
