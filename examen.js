@@ -15,3 +15,8 @@ resultado = six * one;
 console.log("Multiplicacion: " + resultado);
 resultado = six / one;
 console.log("Division: " + resultado);
+
+/* declarar una variable de tipo string, 
+luego crea una segunda variable y haz una 
+concatenacion de las dos variables, luego 
+muestra el resultado en consola. */
