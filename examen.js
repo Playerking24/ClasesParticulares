@@ -46,6 +46,15 @@ la segunda variable debe ser un string con el nombre de la persona a saludar,
 luego haz una concatenacion de las dos variables y muestra el resultado en consola.
 */
 
-let saludos = "hola";
-let nombre_persona = " Kris";
+let saludos = "Hola"; // correcto
+let nombre_persona = " Kris"; // correcto, sugerencia con el nombbre de la variable, no usar guion bajo, usar camelCase, ejemplo: nombrePersona.
 console.log(saludos + nombre_persona);
+
+/*
+Contar una historia, declarando 5 variables.
+declara la variables historia, "Habia una vez un [sustantivo], que vivia en un [adjetivo]
+[lugar]. Un día decidió salir a [verbo] el bosque cercano a su casa. Allí encontró un [sustantivo2] 
+mágico que le concedió un deseo. El [sustantivo] pidió ser el ser más [adjetivo2] del mundo."
+declara las variables sustantivo, adjetivo, lugar, verbo, sustantivo2, adjetivo2 y asignales un valor.
+concatena las variables en la variable historia y luego imprime por consola la variable historia.
+*/
