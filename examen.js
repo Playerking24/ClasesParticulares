@@ -58,3 +58,18 @@ mágico que le concedió un deseo. El [sustantivo] pidió ser el ser más [adjet
 declara las variables sustantivo, adjetivo, lugar, verbo, sustantivo2, adjetivo2 y asignales un valor.
 concatena las variables en la variable historia y luego imprime por consola la variable historia.
 */
+
+let Parte1 = " Había una vez un "
+let parte2 =  " que vivía en un "
+let parte3 = " un día decidió salir a "
+let parte4 = " al bosque cercano a su casa. Allí encontró un "
+let parte5 = " que le concedió un deseo. El "
+let parte6 = " pidio ser el más "
+let parte7 = " del mundo "
+let Sustantivo = "niño"
+let adjetivo = "pequeño"
+let lugar = " pueblo"
+let verbo = "caminar"
+let Sustantivo2 = "genio"
+let adjetivo2 = "amable"
+console.log(Parte1 + Sustantivo + parte2 + adjetivo + lugar +parte3 + verbo + parte4 + Sustantivo2 + parte5 + Sustantivo + parte6 + adjetivo2)
