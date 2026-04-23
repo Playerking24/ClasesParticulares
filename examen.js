@@ -45,3 +45,7 @@ la primera variable debe ser un string con el saludo,
 la segunda variable debe ser un string con el nombre de la persona a saludar,
 luego haz una concatenacion de las dos variables y muestra el resultado en consola.
 */
+
+let saludos = "hola";
+let nombre_persona = " Kris";
+console.log(saludos + nombre_persona);
