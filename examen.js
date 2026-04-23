@@ -37,3 +37,11 @@ let personaje = {
 }
 
 let matriz = [[],[],[]][[],[],[]];
+
+// Actividad de hoy 23/04/2026
+/*
+crear un saludo personalizado, declarando dos variables.
+la primera variable debe ser un string con el saludo,
+la segunda variable debe ser un string con el nombre de la persona a saludar,
+luego haz una concatenacion de las dos variables y muestra el resultado en consola.
+*/
